@@ -20,7 +20,7 @@ io.on("connection", function (socket) {
 });
 
 app.get("/", (req, res) => {
-  res.render("index");
+  res.sendFile(path.join(__dirname, "views", "index.html"));
 });
 
 server.listen(3000);
