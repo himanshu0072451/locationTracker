@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+  background: #000;
+  color: white;
+}
+.map {
+  height: 100%;
+  width: 100%;
+}
